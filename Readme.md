@@ -106,7 +106,121 @@
                     │      Databases & Storage     │
                     │ Postgres                     │
                     └──────────────────────────────┘
-## 📬 Contact & Support
+
+**Technology Stack**
+**Frontend**
+- React
+- Next.js 14+ (App Router, Server Actions)
+- Tailwind CSS
+  Backend
+- FastAPI / Node.js
+
+**Database**
+- PostgreSQL
+
+**AI & Orchestration**
+- Prompt engineering
+- Structured data extraction (JSON mode)
+- Agent-based orchestration
+
+**🤝 Contributing to ECWOC'26**
+**🏁 Step-by-Step Setup**
+Fork this repository to your account.
+Clone your fork:
+git clone https://github.com/DhruvTambekar24/JobAccelerate.git
+Make your changes of the project
+Commit these changes:
+git commit -m "Message"
+git push origin branch-name/main
+Submit:Open a PR and also mention part of EWOC26 in the description
+
+## 📁 Project Structure
+
+JobAccelerateAi/
+├── .next/
+│   └── dev/
+│       ├── build/
+│       ├── cache/
+│       ├── logs/
+│       ├── server/
+│       ├── static/
+│       ├── types/
+│       ├── build-manifest.json
+│       ├── fallback-build-manifest.json
+│       ├── package.json
+│       ├── prerender-manifest.json
+│       ├── routes-manifest.json
+│       └── trace
+├── app/
+│   ├── dashboard/
+│   ├── features/
+│   ├── login/
+│   ├── signup/
+│   ├── onboarding/
+│   ├── privacy/
+│   ├── terms/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── MagicBento/
+│   ├── magicui/
+│   ├── ui/
+│   ├── AnimatedBeamDemo.tsx
+│   ├── AnimatedBeamMultipleOutputDemo.tsx
+│   ├── AnimatedListDemo.tsx
+│   ├── FeatureCard1.tsx
+│   ├── FluidGlass.tsx
+│   ├── GridScan.tsx
+│   ├── analytics-chart.tsx
+│   ├── auth-card.tsx
+│   ├── cards-demo-3.tsx
+│   ├── dashboard-activity.tsx
+│   ├── dashboard-header.tsx
+│   ├── dashboard-sidebar.tsx
+│   ├── dashboard-stats.tsx
+│   ├── faq-section.tsx
+│   ├── feature-card.tsx
+│   ├── feature-section.tsx
+│   ├── features-deep-dive.tsx
+│   ├── features-showcase.tsx
+│   ├── footer.tsx
+│   ├── hero-section.tsx
+│   ├── how-it-works.tsx
+│   ├── job-card.tsx
+│   ├── nav-header.tsx
+│   ├── onboarding-step.tsx
+│   ├── pricing-section.tsx
+│   ├── testimonials.tsx
+│   └── theme-provider.tsx
+├── hooks/
+├── lib/
+├── public/
+│   ├── apple-icon.png
+│   ├── icon-dark-32x32.png
+│   ├── icon-light-32x32.png
+│   ├── icon.svg
+│   ├── placeholder-logo.png
+│   ├── placeholder-logo.svg
+│   ├── placeholder-user.jpg
+│   ├── placeholder.jpg
+│   └── placeholder.svg
+├── styles/
+├── .gitignore
+├── LICENSE.md
+├── README.md
+├── components.json
+├── next-env.d.ts
+├── next.config.mjs
+├── package.json
+├── package-lock.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── tailwind.config.ts
+└── tsconfig.json
+
+
+**## 📬 Contact & Support**
 
 - **Website:** https://jobaccelerate.ai *(coming soon)*  
 - **Support:** support@jobaccelerate.ai  *(coming soon)* 
